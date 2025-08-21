@@ -27,7 +27,7 @@ namespace ConsumoApiRestCRYPTO
                 var datos = result.First.First;
                 var precio = datos["c"][0].ToString();
                 
-                Console.WriteLine("CRIPTOMONEDA: ETHUSDC | ETH "+precio);
+                Console.WriteLine("CRIPTOMONEDA SERVICIO KRAKEN: XBTUSD | BTC " + precio);
             }
             catch (Exception ex)
             {
@@ -39,6 +39,10 @@ namespace ConsumoApiRestCRYPTO
 
 
         }
+
+        // CREAR METODO PARA CONSUMIR EN BINACE
+
+    
 
 
     }
